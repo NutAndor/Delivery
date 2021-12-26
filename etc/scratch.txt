@@ -63,7 +63,7 @@ You: "Thank you." (leave)
 --if you go to Arghes--
 Arghes: "How interesting. The child from Fallhaven, here in Remgard?"
 You: "Hello, did you order 'Yellow boot'?" (QuestActiveRequire: Delivery; "Yellow boot" removed, quest updated)
-Arghes: "Yes, kid. I use this to sell unique boot - the Bar Brawler's boots. It is very helpful for you, kid."
+Arghes: "Yes, kid. I use this to pair with a best seller unique boot - the Bar Brawler's boots. It is very helpful for you, kid."
 --Received 50 exp
 You: Choice between "Sure, let's trade." (trade) and "No thanks." (leave)
 
