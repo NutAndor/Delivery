@@ -6,7 +6,8 @@
     "stages":[
       {
         "progress":10,
-        "logText":"Facutloni asked me to help him deliver all of the items ordered by his customers a long time ago. He even gave me an old document with the names and items written on it."
+        "logText":"Facutloni asked me to help him deliver all of the items ordered by his customers a long time ago. He even gave me an old document with the names and items written on it.",
+        "finishesQuest":0
       },
       {
         "progress":20,
