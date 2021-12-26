@@ -1,0 +1,6 @@
+.project
+altered/drawable
+altered/drawable/*
+created/drawable
+create/drawable/*
+tmp/res/values/loadresources.xml
