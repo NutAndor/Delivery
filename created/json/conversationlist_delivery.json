@@ -414,6 +414,13 @@
                     }
                  ]
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":120
+            }
         ]
     },
     {
@@ -444,11 +451,6 @@
             }
         ],
         "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brv_wh_delivery",
-                "value":120
-            },
             {
                 "rewardType":"questProgress",
                 "rewardID":"brv_wh_delivery",
