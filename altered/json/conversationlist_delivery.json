@@ -67,6 +67,240 @@
         ]
     },
     {
+        "id":"arcir_start",
+        "message":"Hello. I'm Arcir.",
+        "replies":[
+            {
+                "text":"I noticed your statue of Elythara downstairs.",
+                "nextPhraseID":"arcir_elythara_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"arcir",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"You really seem to like your books.",
+                "nextPhraseID":"arcir_books_1"
+            },
+            {
+              "text":"Hello, did you order 'Dusty old book'?",
+              "nextPhraseID":"brv_wh_delivery_arcir",
+              "requires":[
+                   {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_wh_item_09",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"edrin_0",
+        "message":"I'm Edrin, the Brimhaven metalsmith.",
+        "replies":[
+            {
+                "text":"What does a metalsmith do? Is that the same as a blacksmith?",
+                "nextPhraseID":"edrin_1"
+            },
+            {
+                "text":"I don't think that's what I'm looking for. Thanks anyway.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Please show me what you have to trade.",
+                "nextPhraseID":"S"
+            },
+            {
+              "text":"Hello, did you order 'Striped Hammer'?",
+              "nextPhraseID":"brv_wh_delivery_edrin",
+              "requires":[
+                   {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_wh_item_08",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"odirath_0",
+        "message":"Welcome to my shop. Are you looking for anything in particular?",
+        "replies":[
+            {
+                "text":"Please show me everything you have available.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"I am looking for my brother, Andor. Have you seen anyone recently that looks a bit like me?",
+                "nextPhraseID":"odirath_1"
+            },
+            {
+                "text":"Can you tell me anything about Stoutford?",
+                "nextPhraseID":"odirath_1_1"
+            },
+            {
+                "text":"You look a bit worried.",
+                "nextPhraseID":"odirath_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_quest_gyra",
+                        "value":10,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_quest_gyra",
+                        "value":60,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"You look happy again.",
+                "nextPhraseID":"odirath_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_quest_gyra",
+                        "value":60
+                    }
+                ]
+            },
+            {
+              "text":"Hello, did you order 'Pretty Porcelain Figure'?",
+              "nextPhraseID":"brv_wh_delivery_odirath",
+              "requires":[
+                   {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_wh_item_07",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_laundry_boss_0",
+        "message":"Hello, what can I do for you?",
+        "replies":[
+            {
+                "text":"Can you sell me something?",
+                "nextPhraseID":"brv_laundry_boss_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay_multipurpose",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I want to buy the dresses.",
+                "nextPhraseID":"S",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay_multipurpose",
+                        "value":15
+                    }
+                ]
+            },
+            {
+                "text":"I want you to improve some of my clothes.",
+                "nextPhraseID":"brv_laundry_boss_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay_multipurpose",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"I am looking for my brother, Andor. He looks a bit like me.",
+                "nextPhraseID":"brv_laundry_boss_0b"
+            },
+            {
+                "text":"Have you ever seen a glove like this? [Shows Venanra the glove.]",
+                "nextPhraseID":"brv_laundry_boss_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":170
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ogea_glove",
+                        "value":1
+                    }
+                ]
+            },
+            {
+              "text":"Hello, did you order 'Old, worn cape'?",
+              "nextPhraseID":"brv_wh_delivery_venanra",
+              "requires":[
+                   {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_wh_item_06",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id":"tjure",
         "replies":[
             {
@@ -156,85 +390,519 @@
         ]
     },
     {
-        "id":"arghes",
+        "id":"tjure_0",
+        "message":"Oh, what a rare surprise!",
         "replies":[
             {
-                "nextPhraseID":"arghes_2",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"andor",
-                        "value":51
-                    }
-                ]
+                "text":"Who are you?",
+                "nextPhraseID":"tjure_0_10"
             },
             {
-                "nextPhraseID":"arghes_1"
+                "text":"What are you doing in such a lonely place?",
+                "nextPhraseID":"tjure_0_10"
+            },
+            {
+                "text":"Eh, sorry to disturb you.",
+                "nextPhraseID":"X"
+            },
+            {
+              "text":"Hello, did you order 'Mysterious green something'?",
+              "nextPhraseID":"brv_wh_delivery_tjure",
+              "requires":[
+                   {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_wh_item_05",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":60,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
     {
-        "id":"wrye_select_1",
+        "id":"tjure_wh_delivery_90",
+        "message":"*Sigh* You were my last hope. Leave me now.",
         "replies":[
             {
-                "nextPhraseID":"wrye_return_2",
+              "text":"Hello, did you order 'Mysterious green something'?",
+              "nextPhraseID":"brv_wh_delivery_tjure",
+              "requires":[
+                   {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_wh_item_05",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"tjure_100",
+        "message":"Thank you for your help.",
+        "switchToNPC":"tjure",
+        "replies":[
+            {
+              "text":"Hello, did you order 'Mysterious green something'?",
+              "nextPhraseID":"brv_wh_delivery_tjure",
+              "requires":[
+                   {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_wh_item_05",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":60,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"tjure_200",
+        "message":"Oh, you look better than the last time we met. Thank you for your help.",
+        "replies":[
+            {
+              "text":"Hello, did you order 'Mysterious green something'?",
+              "nextPhraseID":"brv_wh_delivery_tjure",
+              "requires":[
+                   {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_wh_item_05",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":60,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"guynmart_servant_10",
+        "message":"What are you doing in my lords rooms?",
+        "replies":[
+            {
+                "text":"You are lying around in bed in broad daylight?",
+                "nextPhraseID":"guynmart_servant_20"
+            },
+            {
+              "text":"Hello, did you order 'Chandelier'?",
+              "nextPhraseID":"brv_wh_delivery_servant",
+              "requires":[
+                   {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_wh_item_04",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"arghes_2",
+        "message":"How interesting. The child from Fallhaven, here in Remgard?",
+        "replies":[
+            {
+                "text":"I'm not from Fallhaven, I am from Crossglen, west of Fallhaven.",
+                "nextPhraseID":"arghes_3a"
+            },
+            {
+                "text":"Who are you?",
+                "nextPhraseID":"arghes_3b"
+            },
+            {
+                "text":"How do you know where I am from?",
+                "nextPhraseID":"arghes_3c"
+            },
+            {
+              "text":"Hello, did you order 'Yellow boot'?",
+              "nextPhraseID":"brv_wh_delivery_arghes",
+              "requires":[
+                   {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_wh_item_03",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":80,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"wrye_return_1",
+        "message":"Welcome back. Have you found out anything about my son, Rincel?",
+        "replies":[
+            {
+                "text":"Can you tell me the story about what happened again?",
+                "nextPhraseID":"wrye_mourn_5"
+            },
+            {
+                "text":"No, I have not found anything yet.",
+                "nextPhraseID":"wrye_story_14"
+            },
+            {
+                "text":"Yes, I have found out the story about what happened to him.",
+                "nextPhraseID":"wrye_resolved_1",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"wrye",
-                        "value":90
+                        "value":80
                     }
                 ]
             },
             {
-                "nextPhraseID":"wrye_return_1",
+              "text":"Hello, did you order 'Lyre'?",
+              "nextPhraseID":"brv_wh_delivery_wyre_negative",
+              "requires":[
+                   {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brv_wh_item_02",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":90,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"wrye_return_2",
+        "message":"Welcome back. Thank you for your help in finding out what happened to my son.",
+        "replies":[
+            {
+                "text":"Shadow be with you.",
+                "nextPhraseID":"wrye_story_15"
+            },
+            {
+                "text":"You are welcome.",
+                "nextPhraseID":"wrye_story_15"
+            },
+            {
+              "text":"Hello, did you order 'Lyre'?",
+              "nextPhraseID":"brv_wh_delivery_wyre",
+              "requires":[
+                   {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_wh_item_02",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":90,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"wrye_mourn_1",
+        "message":"Shadow help me.",
+        "replies":[
+            {
+                "text":"What is the matter?",
+                "nextPhraseID":"wrye_mourn_2"
+            },
+            {
+              "text":"Hello, did you order 'Lyre'?",
+              "nextPhraseID":"wrye_mourn_3",
+              "requires":[
+                   {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brv_wh_item_02",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":90,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"wrye_mourn_2",
+        "message":"My son! My son is gone.",
+        "replies":[
+            {
+                "text":"Jolnor said I should see you about your son.",
+                "nextPhraseID":"wrye_mourn_5",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"wrye",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"What about him?",
+                "nextPhraseID":"wrye_mourn_3"
+            },
+            {
+              "text":"Hello, did you order 'Lyre'?",
+              "nextPhraseID":"wrye_mourn_3",
+              "requires":[
+                   {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brv_wh_item_02",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":90,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mikhail_default",
+        "message":"Anything else I can help you with?",
+        "replies":[
+            {
+                "text":"Do you have any more tasks for me?",
+                "nextPhraseID":"mikhail_all_tasks_done",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mikhail_bread",
+                        "value":100
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mikhail_rats",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "text":"Do you have any more tasks for me?",
+                "nextPhraseID":"mikhail_bread_done",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mikhail_bread",
+                        "value":100
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mikhail_rats",
+                        "value":100,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Do you have any more tasks for me?",
+                "nextPhraseID":"mikhail_rats_done",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mikhail_bread",
+                        "value":100,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mikhail_rats",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "text":"Do you have any tasks for me?",
+                "nextPhraseID":"mikhail_tasks",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mikhail_bread",
+                        "value":100,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mikhail_rats",
+                        "value":100,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Is there anything else you can tell me about Andor?",
+                "nextPhraseID":"mikhail_andor1"
+            },
+            {
+                "text":"I have a present for you.",
+                "nextPhraseID":"mikhail_present_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_present",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_present",
+                        "value":40,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_present",
+                        "value":50,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_present",
+                        "value":60,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay_multipurpose",
                         "value":40
                     }
                 ]
             },
             {
-                "nextPhraseID":"wrye_mourn_1"
-            }
-        ]
-    },
-    {
-        "id":"mikhail_start_select",
-        "replies":[
-            {
-                "nextPhraseID":"mikhail_start_select2",
+                "text":"I have a present for you.",
+                "nextPhraseID":"mikhail_present_10",
                 "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_present",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_present",
+                        "value":40,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_present",
+                        "value":50,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_present",
+                        "value":60,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay_multipurpose",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I was searching for Andor.",
+                "nextPhraseID":"mikhail_news_10"
+            },
+            {
+                "text":"What kind of book is it that you have in your hand?",
+                "nextPhraseID":"mikhail_achievements_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":1,
+                        "negate":true
+                    },
                     {
                         "requireType":"questProgress",
                         "requireID":"mikhail_bread",
                         "value":100
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"mikhail_bread_continue",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"mikhail_bread",
-                        "value":10
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"mikhail_start_select2"
-            }
-        ]
-    },
-    {
-        "id":"mikhail_start_select2",
-        "replies":[
-            {
-                "nextPhraseID":"mikhail_start_select_default",
-                "requires":[
+                    },
                     {
                         "requireType":"questProgress",
                         "requireID":"mikhail_rats",
@@ -243,149 +911,109 @@
                 ]
             },
             {
-                "nextPhraseID":"mikhail_rats_continue",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"mikhail_rats",
-                        "value":10
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"mikhail_start_select_default"
-            }
-        ]
-    },
-    {
-        "id":"mikhail_start_select_default",
-        "replies":[
-            {
-                "nextPhraseID":"mikhail_default",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"andor",
+              "text":"Hello, did you order 'Plush Pillow'?",
+              "nextPhraseID":"brv_wh_delivery_mikhail",
+              "requires":[
+                   {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_wh_item_01",
                         "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":100,
+                        "negate":true
                     }
                 ]
-            },
-            {
-                "nextPhraseID":"mikhail_gamestart"
             }
         ]
     },
     {
-        "id":"brv_fortune_select",
+        "id":"brv_fortune_10",
+        "message":"What has brought you to me? It looks like you might need my help.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"brv_fortune_back",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_nondisplay",
-                        "value":144
-                    }
-                ]
+                "text":"What help can you offer?",
+                "nextPhraseID":"brv_fortune_20"
             },
             {
-                "text":"N",
-                "nextPhraseID":"brv_fortune"
+                "text":"I am searching...",
+                "nextPhraseID":"brv_fortune_30"
+            },
+            {
+              "text":"Hello, did you order 'Crystal Globe'?",
+              "nextPhraseID":"brv_wh_delivery_brv_fortune",
+              "requires":[
+                   {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_wh_item_00",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
     {
-        "id":"brv_fortune_fortunes_select",
+        "id":"brv_fortune_choice",
+        "message":"Anything more I can help you with?",
         "replies":[
             {
-                "nextPhraseID":"brv_fortune_andor_10",
+                "text":"Please tell me something that you can see about me or my brother Andor. [Give him 100 gold]",
+                "nextPhraseID":"brv_fortune_pre_fortunes",
                 "requires":[
                     {
-                        "requireType":"random",
-                        "requireID":"17"
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "text":"I don't have 100 gold to pay you.",
+                "nextPhraseID":"brv_fortune_end_10"
+            },
+            {
+                "text":"Maybe I can help you.",
+                "nextPhraseID":"brv_fortune_300"
+            },
+            {
+              "text":"Hello, did you order 'Crystal Globe'?",
+              "nextPhraseID":"brv_wh_delivery_brv_fortune",
+              "requires":[
+                   {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_wh_item_00",
+                        "value":1
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"brv_nondisplay",
-                        "value":151,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brv_fortune_andor_30",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"20"
+                        "requireID":"brv_wh_delivery",
+                        "value":10
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"brv_nondisplay",
-                        "value":150,
+                        "requireID":"brv_wh_delivery",
+                        "value":110,
                         "negate":true
                     }
                 ]
-            },
-            {
-                "nextPhraseID":"brv_fortune_hero_10",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"25"
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_nondisplay",
-                        "value":149,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brv_fortune_hero_30",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"33"
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_nondisplay",
-                        "value":148,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brv_fortune_hero_130",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"50"
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_nondisplay",
-                        "value":147,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brv_fortune_hero_70",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_nondisplay",
-                        "value":145,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brv_fortune_fortunes_select"
             }
         ]
     }
