@@ -1661,7 +1661,7 @@
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"facutloni_docket",
-                        "value":1
+                        "value":1,
                         "negate":true
                     }
                  ]
@@ -1706,6 +1706,7 @@
                 "rewardID":"brv_wh_delivery",
                 "value":130
             }
+        ]
     },
     {
         "id":"brv_wh_delivery_boss_reward",
