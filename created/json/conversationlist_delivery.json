@@ -50,7 +50,17 @@
                 "rewardType":"giveItem",
                 "rewardID":"facutloni_docket",
                 "value":1
-            }
+            },
+            { "rewardType":"giveItem", "rewardID":"brv_wh_item_01", "value":1 },
+            { "rewardType":"giveItem", "rewardID":"brv_wh_item_02", "value":1 },
+            { "rewardType":"giveItem", "rewardID":"brv_wh_item_03", "value":1 },
+            { "rewardType":"giveItem", "rewardID":"brv_wh_item_04", "value":1 },
+            { "rewardType":"giveItem", "rewardID":"brv_wh_item_05", "value":1 },
+            { "rewardType":"giveItem", "rewardID":"brv_wh_item_06", "value":1 },
+            { "rewardType":"giveItem", "rewardID":"brv_wh_item_07", "value":1 },
+            { "rewardType":"giveItem", "rewardID":"brv_wh_item_08", "value":1 },
+            { "rewardType":"giveItem", "rewardID":"brv_wh_item_09", "value":1 },
+            { "rewardType":"giveItem", "rewardID":"brv_wh_item_10", "value":1 }
         ]
     },
     {
