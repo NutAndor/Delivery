@@ -35,11 +35,10 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":20,
-                        "negate":true
+                        "value":20
                     }
                 ]
             }
         ]
-  }
+   }
 ]
