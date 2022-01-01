@@ -67,17 +67,7 @@
                 "rewardType":"giveItem",
                 "rewardID":"facutloni_docket",
                 "value":1
-            },
-            { "rewardType":"giveItem", "rewardID":"brv_wh_item_01", "value":1 },
-            { "rewardType":"giveItem", "rewardID":"brv_wh_item_02", "value":1 },
-            { "rewardType":"giveItem", "rewardID":"brv_wh_item_03", "value":1 },
-            { "rewardType":"giveItem", "rewardID":"brv_wh_item_04", "value":1 },
-            { "rewardType":"giveItem", "rewardID":"brv_wh_item_05", "value":1 },
-            { "rewardType":"giveItem", "rewardID":"brv_wh_item_06", "value":1 },
-            { "rewardType":"giveItem", "rewardID":"brv_wh_item_07", "value":1 },
-            { "rewardType":"giveItem", "rewardID":"brv_wh_item_08", "value":1 },
-            { "rewardType":"giveItem", "rewardID":"brv_wh_item_09", "value":1 },
-            { "rewardType":"giveItem", "rewardID":"brv_wh_item_10", "value":1 }
+            }
         ]
     },
     {
@@ -343,54 +333,64 @@
                 "nextPhraseID":"brv_wh_delivery_boss_10_10_yes",
                 "requires":[
                     {
-                        "requireType":"removeQuestProgress",
+                        "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":20
+                        "value":20,
+						"negate":true
                     },
                     {
-                        "requireType":"removeQuestProgress",
+                        "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":30
+                        "value":30,
+						"negate":true
                     },
                     {
-                        "requireType":"removeQuestProgress",
+                        "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":40
+                        "value":40,
+						"negate":true
                     },
                     {
-                        "requireType":"removeQuestProgress",
+                        "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":50
+                        "value":50,
+						"negate":true
                     },
                     {
-                        "requireType":"removeQuestProgress",
+                        "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":60
+                        "value":60,
+						"negate":true
                     },
                     {
-                        "requireType":"removeQuestProgress",
+                        "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":70
+                        "value":70,
+						"negate":true
                     },
                     {
-                        "requireType":"removeQuestProgress",
+                        "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":80
+                        "value":80,
+						"negate":true
                     },
                     {
-                        "requireType":"removeQuestProgress",
+                        "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":90
+                        "value":90,
+						"negate":true
                     },
                     {
-                        "requireType":"removeQuestProgress",
+                        "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":100
+                        "value":100,
+						"negate":true
                     },
                     {
-                        "requireType":"removeQuestProgress",
+                        "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":110
+                        "value":110,
+						"negate":true
                     }
                 ]
             },
@@ -476,13 +476,6 @@
                 "text":"I travelled far and wide.",
                 "nextPhraseID":"brv_wh_delivery_boss_reward"
             }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brv_wh_delivery",
-                "value":130
-            }
         ]
     },
     {
@@ -496,6 +489,18 @@
             {
                 "text":"What the?",
                 "nextPhraseID":"brv_wh_delivery_boss_scrooge"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":130
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":100
             }
         ]
     },
