@@ -11,61 +11,61 @@
       },
       {
         "progress":20,
-        "logText":"I delivered 'Dusty Old book' to Arcir the book-lover from Fallhaven.",
+        "logText":"Arcir the Fallhaven book-lover ordered 'Dusty Old book'.",
         "rewardExperience":50
       },
       {
         "progress":30,
-        "logText":"I delivered 'Striped Hammer' to Edrin the metalsmith from Fallhaven.",
+        "logText":"Edrin the Brimhaven metalsmith ordered 'Striped Hammer'.",
         "rewardExperience":50
       },
       {
         "progress":40,
-        "logText":"I delivered 'Pretty Porcelain Figure' to Odirath the armorer from Stoutford.",
+        "logText":" Odirath the Stoutford armorer ordered 'Pretty Porcelain Figure'.",
         "rewardExperience":50
       },
       {
         "progress":50,
-        "logText":"I delivered 'Old, worn cape' to Venanra the laundress from Brimhaven.",
+        "logText":"Venanra the Brimhaven laundress ordered 'Old, worn cape'.",
         "rewardExperience":50
       },
       {
         "progress":60,
-        "logText":"I delivered 'Mysterious green something' to Tjure the unluckiest merchant from BWM.",
+        "logText":"Tjure the unluckiest Brimhaven merchant ordered 'Mysterious green something'.",
         "rewardExperience":50
       },
       {
         "progress":70,
-        "logText":"I delivered 'Chandelier' to Rob's servant the servant from Guynmart.",
+        "logText":"Servant the Guynmart servant ordered 'Chandelier'.",
         "rewardExperience":50
       },
       {
         "progress":80,
-        "logText":"I delivered 'Yellow boot' to Arghes the merchant from Remgard.",
+        "logText":"Arghes the Remgard merchant ordered 'Yellow boot'.",
         "rewardExperience":50
       },
       {
         "progress":90,
-        "logText":"I delivered 'Lyre' to Wyre the mournful woman from Vilegard.",
+        "logText":"Wyre the mournful Vilegard woman ordered 'Lyre'.",
         "rewardExperience":50
       },
       {
         "progress":100,
-        "logText":"I delivered 'Plush Pillow' to Mikhail your father from Crossglen.",
+        "logText":"Mikhail ordered 'Plush Pillow'.",
         "rewardExperience":50
       },
       {
         "progress":110,
-        "logText":"I delivered Crystal Globe to Pangitain the fortune teller from Brimhaven.",
+        "logText":"Pangitain the Brimhaven fortune teller ordered Crystal Globe.",
         "rewardExperience":50
       },
       {
         "progress":120,
-        "logText":"I returned to Facutloni and told him that I delivered all of the ordered items."
+        "logText":"Facutloni wants me to report back after the delivery."
       },
       {
         "progress":130,
-        "logText":"I gave Facutloni the Docket. He is very glad.",
+        "logText":"I reported back to Facutloni. He is very glad.",
         "rewardExperience":1500,
         "finishesQuest":1
       }

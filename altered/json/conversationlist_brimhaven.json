@@ -1,0 +1,203 @@
+[
+  {
+        "id":"brv_laundry_boss_0",
+        "message":"Hello, what can I do for you?",
+        "replies":[
+            {
+                "text":"Can you sell me something?",
+                "nextPhraseID":"brv_laundry_boss_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay_multipurpose",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I want to buy the dresses.",
+                "nextPhraseID":"S",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay_multipurpose",
+                        "value":15
+                    }
+                ]
+            },
+            {
+                "text":"I want you to improve some of my clothes.",
+                "nextPhraseID":"brv_laundry_boss_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay_multipurpose",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"I am looking for my brother, Andor. He looks a bit like me.",
+                "nextPhraseID":"brv_laundry_boss_0b"
+            },
+            {
+                "text":"Have you ever seen a glove like this? [Shows Venanra the glove.]",
+                "nextPhraseID":"brv_laundry_boss_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":170
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ogea_glove",
+                        "value":1
+                    }
+                ]
+            },
+            {
+              "text":"Hello, did you order 'Old, worn cape'?",
+              "nextPhraseID":"brv_wh_delivery_venanra",
+              "requires":[
+                   {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_wh_item_06",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":50
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"edrin_0",
+        "message":"I'm Edrin, the Brimhaven metalsmith.",
+        "replies":[
+            {
+                "text":"What does a metalsmith do? Is that the same as a blacksmith?",
+                "nextPhraseID":"edrin_1"
+            },
+            {
+                "text":"I don't think that's what I'm looking for. Thanks anyway.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Please show me what you have to trade.",
+                "nextPhraseID":"S"
+            },
+            {
+              "text":"Hello, did you order 'Striped Hammer'?",
+              "nextPhraseID":"brv_wh_delivery_edrin",
+              "requires":[
+                   {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_wh_item_08",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":30
+                    }
+                ]
+            }
+        ]
+    },
+   {
+        "id":"brv_fortune_10",
+        "message":"What has brought you to me? It looks like you might need my help.",
+        "replies":[
+            {
+                "text":"What help can you offer?",
+                "nextPhraseID":"brv_fortune_20"
+            },
+            {
+                "text":"I am searching...",
+                "nextPhraseID":"brv_fortune_30"
+            },
+            {
+              "text":"Hello, did you order 'Crystal Globe'?",
+              "nextPhraseID":"brv_wh_delivery_brv_fortune",
+              "requires":[
+                   {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_wh_item_00",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":110
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_choice",
+        "message":"Anything more I can help you with?",
+        "replies":[
+            {
+                "text":"Please tell me something that you can see about me or my brother Andor. [Give him 100 gold]",
+                "nextPhraseID":"brv_fortune_pre_fortunes",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "text":"I don't have 100 gold to pay you.",
+                "nextPhraseID":"brv_fortune_end_10"
+            },
+            {
+                "text":"Maybe I can help you.",
+                "nextPhraseID":"brv_fortune_300"
+            },
+            {
+              "text":"Hello, did you order 'Crystal Globe'?",
+              "nextPhraseID":"brv_wh_delivery_brv_fortune",
+              "requires":[
+                   {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_wh_item_00",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":110
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,5 +1,5 @@
 [
-    {
+  {
         "id":"arcir_start",
         "message":"Hello. I'm Arcir.",
         "replies":[
@@ -19,9 +19,14 @@
                 "nextPhraseID":"arcir_books_1"
             },
             {
-                "text":"Here's a dusty old book that you had ordered.",
-                "nextPhraseID":"brv_wh_delivery_arcir",
-                "requires":[
+              "text":"Hello, did you order 'Dusty old book'?",
+              "nextPhraseID":"brv_wh_delivery_arcir",
+              "requires":[
+                   {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_wh_item_09",
+                        "value":1
+                    },
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
@@ -30,16 +35,10 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":20,
-						"negate":true
-                    },
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"brv_wh_item_09",
-                        "value":1
+                        "value":20
                     }
                 ]
             }
         ]
-    }
+   }
 ]
