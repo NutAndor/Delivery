@@ -47,6 +47,61 @@
                 "value":10
             },
             {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":20
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":30
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":40
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":50
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":60
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":70
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":80
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":90
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":100
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":110
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":120
+            },
+            {
                 "rewardType":"giveItem",
                 "rewardID":"facutloni_docket",
                 "value":1
@@ -78,7 +133,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"brv_wh_delivery",
                 "value":20
             },
@@ -100,7 +155,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"brv_wh_delivery",
                 "value":30
             },
@@ -122,7 +177,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"brv_wh_delivery",
                 "value":40
             },
@@ -144,7 +199,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"brv_wh_delivery",
                 "value":50
             },
@@ -166,7 +221,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"brv_wh_delivery",
                 "value":60
             },
@@ -188,7 +243,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"brv_wh_delivery",
                 "value":70
             },
@@ -214,7 +269,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"brv_wh_delivery",
                 "value":80
             }
@@ -235,7 +290,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"brv_wh_delivery",
                 "value":90
             }
@@ -256,7 +311,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"brv_wh_delivery",
                 "value":100
             }
@@ -301,7 +356,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"brv_wh_delivery",
                 "value":110
             }
@@ -316,52 +371,52 @@
                 "nextPhraseID":"brv_wh_delivery_boss_10_10_yes",
                 "requires":[
                     {
-                        "requireType":"questProgress",
+                        "requireType":"removeQuestProgress",
                         "requireID":"brv_wh_delivery",
                         "value":20
                     },
                     {
-                        "requireType":"questProgress",
+                        "requireType":"removeQuestProgress",
                         "requireID":"brv_wh_delivery",
                         "value":30
                     },
                     {
-                        "requireType":"questProgress",
+                        "requireType":"removeQuestProgress",
                         "requireID":"brv_wh_delivery",
                         "value":40
                     },
                     {
-                        "requireType":"questProgress",
+                        "requireType":"removeQuestProgress",
                         "requireID":"brv_wh_delivery",
                         "value":50
                     },
                     {
-                        "requireType":"questProgress",
+                        "requireType":"removeQuestProgress",
                         "requireID":"brv_wh_delivery",
                         "value":60
                     },
                     {
-                        "requireType":"questProgress",
+                        "requireType":"removeQuestProgress",
                         "requireID":"brv_wh_delivery",
                         "value":70
                     },
                     {
-                        "requireType":"questProgress",
+                        "requireType":"removeQuestProgress",
                         "requireID":"brv_wh_delivery",
                         "value":80
                     },
                     {
-                        "requireType":"questProgress",
+                        "requireType":"removeQuestProgress",
                         "requireID":"brv_wh_delivery",
                         "value":90
                     },
                     {
-                        "requireType":"questProgress",
+                        "requireType":"removeQuestProgress",
                         "requireID":"brv_wh_delivery",
                         "value":100
                     },
                     {
-                        "requireType":"questProgress",
+                        "requireType":"removeQuestProgress",
                         "requireID":"brv_wh_delivery",
                         "value":110
                     }
@@ -417,7 +472,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"brv_wh_delivery",
                 "value":120
             }
