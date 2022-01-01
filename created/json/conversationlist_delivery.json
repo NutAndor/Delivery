@@ -41,66 +41,28 @@
             }
         ],
         "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brv_wh_delivery",
-                "value":10
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brv_wh_delivery",
-                "value":20
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brv_wh_delivery",
-                "value":30
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brv_wh_delivery",
-                "value":40
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brv_wh_delivery",
-                "value":50
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brv_wh_delivery",
-                "value":60
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brv_wh_delivery",
-                "value":70
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brv_wh_delivery",
-                "value":80
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brv_wh_delivery",
-                "value":90
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brv_wh_delivery",
-                "value":100
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brv_wh_delivery",
-                "value":110
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brv_wh_delivery",
-                "value":120
-            },
+            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":10 },
+            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":20 },
+            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":30 },
+            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":40 },
+            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":50 },
+            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":60 },
+            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":70 },
+            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":80 },
+            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":90 },
+            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":100 },
+            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":110 },
+            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":120 },
+            { "rewardType":"giveItem", "rewardID":"brv_wh_item_01", "value":1 },
+            { "rewardType":"giveItem", "rewardID":"brv_wh_item_02", "value":1 },
+            { "rewardType":"giveItem", "rewardID":"brv_wh_item_03", "value":1 },
+            { "rewardType":"giveItem", "rewardID":"brv_wh_item_04", "value":1 },
+            { "rewardType":"giveItem", "rewardID":"brv_wh_item_05", "value":1 },
+            { "rewardType":"giveItem", "rewardID":"brv_wh_item_06", "value":1 },
+            { "rewardType":"giveItem", "rewardID":"brv_wh_item_07", "value":1 },
+            { "rewardType":"giveItem", "rewardID":"brv_wh_item_08", "value":1 },
+            { "rewardType":"giveItem", "rewardID":"brv_wh_item_09", "value":1 },
+            { "rewardType":"giveItem", "rewardID":"brv_wh_item_10", "value":1 },
             {
                 "rewardType":"giveItem",
                 "rewardID":"facutloni_docket",
