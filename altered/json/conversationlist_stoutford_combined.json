@@ -61,8 +61,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":40,
-                        "negate":true
+                        "value":40
                     }
                 ]
             }
