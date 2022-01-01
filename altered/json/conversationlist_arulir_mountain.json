@@ -1,7 +1,37 @@
 [
-  {
+   {
         "id":"tjure",
         "replies":[
+            {
+                "nextPhraseID":"tjure_200",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mermaid_scale",
+                        "value":200
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"tjure_100",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mermaid_scale",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"tjure_90",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mermaid_scale",
+                        "value":90
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"tjure_wh_delivery_90",
                 "requires":[
@@ -21,6 +51,39 @@
                         "value":60
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"tjure_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mermaid_scale",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"tjure_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mermaid_scale",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"tjure_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mermaid_scale",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"tjure_0"
             }
         ]
     },
