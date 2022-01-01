@@ -74,8 +74,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":50,
-                        "negate":true
+                        "value":50
                     }
                 ]
             }
@@ -114,8 +113,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":30,
-                        "negate":true
+                        "value":30
                     }
                 ]
             }
