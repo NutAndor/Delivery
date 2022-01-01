@@ -1,0 +1,43 @@
+{
+        "id":"arcir_start",
+        "message":"Hello. I'm Arcir.",
+        "replies":[
+            {
+                "text":"I noticed your statue of Elythara downstairs.",
+                "nextPhraseID":"arcir_elythara_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"arcir",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"You really seem to like your books.",
+                "nextPhraseID":"arcir_books_1"
+            },
+            {
+              "text":"Hello, did you order 'Dusty old book'?",
+              "nextPhraseID":"brv_wh_delivery_arcir",
+              "requires":[
+                   {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_wh_item_09",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+}
