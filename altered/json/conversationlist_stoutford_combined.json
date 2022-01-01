@@ -1,4 +1,5 @@
-{
+[
+  {
         "id":"odirath_0",
         "message":"Welcome to my shop. Are you looking for anything in particular?",
         "replies":[
@@ -66,4 +67,5 @@
                 ]
             }
         ]
- }
+  }
+]
