@@ -48,8 +48,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":60,
-                        "negate":true
+                        "value":60
                     }
                 ]
             },
@@ -121,8 +120,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":60,
-                        "negate":true
+                        "value":60
                     }
                 ]
             }
@@ -140,6 +138,16 @@
                         "requireType":"inventoryRemove",
                         "requireID":"brv_wh_item_05",
                         "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":60
                     }
                 ]
             }
@@ -167,8 +175,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":60,
-                        "negate":true
+                        "value":60
                     }
                 ]
             }
@@ -195,8 +202,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":60,
-                        "negate":true
+                        "value":60
                     }
                 ]
             }
@@ -227,8 +233,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":70,
-                        "negate":true
+                        "value":70
                     }
                 ]
             }
@@ -267,8 +272,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":80,
-                        "negate":true
+                        "value":80
                     }
                 ]
             }
@@ -314,8 +318,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":90,
-                        "negate":true
+                        "value":90
                     }
                 ]
             }
@@ -350,8 +353,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":90,
-                        "negate":true
+                        "value":90
                     }
                 ]
             }
@@ -382,8 +384,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":90,
-                        "negate":true
+                        "value":90
                     }
                 ]
             }
@@ -425,8 +426,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":90,
-                        "negate":true
+                        "value":90
                     }
                 ]
             }
@@ -626,8 +626,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":100,
-                        "negate":true
+                        "value":100
                     }
                 ]
             }
@@ -662,8 +661,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":110,
-                        "negate":true
+                        "value":110
                     }
                 ]
             }
@@ -709,8 +707,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
-                        "value":110,
-                        "negate":true
+                        "value":110
                     }
                 ]
             }
