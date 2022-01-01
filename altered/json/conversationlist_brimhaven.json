@@ -1,4 +1,5 @@
-{
+[
+  {
         "id":"brv_laundry_boss_0",
         "message":"Hello, what can I do for you?",
         "replies":[
@@ -119,4 +120,5 @@
                 ]
             }
         ]
-}
+  }
+]
