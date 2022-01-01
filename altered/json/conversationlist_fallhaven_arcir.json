@@ -1,4 +1,5 @@
-{
+[
+  {
         "id":"arcir_start",
         "message":"Hello. I'm Arcir.",
         "replies":[
@@ -40,4 +41,5 @@
                 ]
             }
         ]
-}
+  }
+]
