@@ -100,6 +100,11 @@
                 "value":20
             },
             {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery_nondisplay",
+                "value":10
+            },
+            {
                 "rewardType":"giveItem",
                 "rewardID":"gold",
                 "value":20
@@ -120,6 +125,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"brv_wh_delivery",
                 "value":30
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery_nondisplay",
+                "value":20
             },
             {
                 "rewardType":"giveItem",
@@ -144,6 +154,11 @@
                 "value":40
             },
             {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery_nondisplay",
+                "value":30
+            },
+            {
                 "rewardType":"giveItem",
                 "rewardID":"gold",
                 "value":30
@@ -164,6 +179,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"brv_wh_delivery",
                 "value":50
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery_nondisplay",
+                "value":40
             },
             {
                 "rewardType":"giveItem",
@@ -188,6 +208,11 @@
                 "value":60
             },
             {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery_nondisplay",
+                "value":50
+            },
+            {
                 "rewardType":"giveItem",
                 "rewardID":"gold",
                 "value":50
@@ -208,6 +233,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"brv_wh_delivery",
                 "value":70
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery_nondisplay",
+                "value":60
             },
             {
                 "rewardType":"giveItem",
@@ -234,6 +264,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"brv_wh_delivery",
                 "value":80
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery_nondisplay",
+                "value":70
             }
         ]
     },
@@ -255,6 +290,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"brv_wh_delivery",
                 "value":90
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery_nondisplay",
+                "value":80
             }
         ]
     },
@@ -277,6 +317,11 @@
                 "rewardID":"brv_wh_delivery",
                 "value":100
             }
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery_nondisplay",
+                "value":90
+            },
         ]
     },
     {
@@ -321,6 +366,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"brv_wh_delivery",
                 "value":110
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery_nondisplay",
+                "value":100
             }
         ]
     },
@@ -333,54 +383,54 @@
                 "nextPhraseID":"brv_wh_delivery_boss_10_10_yes",
                 "requires":[
                     {
-                        "requireType":"removeQuestProgress",
-                        "requireID":"brv_wh_delivery",
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery_nondisplay",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery_nondisplay",
                         "value":20
                     },
                     {
-                        "requireType":"removeQuestProgress",
-                        "requireID":"brv_wh_delivery",
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery_nondisplay",
                         "value":30
                     },
                     {
-                        "requireType":"removeQuestProgress",
-                        "requireID":"brv_wh_delivery",
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery_nondisplay",
                         "value":40
                     },
                     {
-                        "requireType":"removeQuestProgress",
-                        "requireID":"brv_wh_delivery",
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery_nondisplay",
                         "value":50
                     },
                     {
-                        "requireType":"removeQuestProgress",
-                        "requireID":"brv_wh_delivery",
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery_nondisplay",
                         "value":60
                     },
                     {
-                        "requireType":"removeQuestProgress",
-                        "requireID":"brv_wh_delivery",
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery_nondisplay",
                         "value":70
                     },
                     {
-                        "requireType":"removeQuestProgress",
-                        "requireID":"brv_wh_delivery",
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery_nondisplay",
                         "value":80
                     },
                     {
-                        "requireType":"removeQuestProgress",
-                        "requireID":"brv_wh_delivery",
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery_nondisplay",
                         "value":90
                     },
                     {
-                        "requireType":"removeQuestProgress",
-                        "requireID":"brv_wh_delivery",
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery_nondisplay",
                         "value":100
-                    },
-                    {
-                        "requireType":"removeQuestProgress",
-                        "requireID":"brv_wh_delivery",
-                        "value":110
                     }
                 ]
             },
