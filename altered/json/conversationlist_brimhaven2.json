@@ -1,5 +1,5 @@
 [
-  {
+    {
         "id":"brv_wh_boss",
         "replies":[
             {
@@ -24,7 +24,7 @@
             },
             {
                 "nextPhraseID":"brv_wh_delivery_boss_10",
-                 "requires":[
+                "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_wh",
@@ -40,19 +40,11 @@
                         "requireID":"brv_wh",
                         "value":10
                     }
-                ]   
+                ]
             },
             {
-                "nextPhraseID":"brv_wh_boss_10",
-                 "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_wh",
-                        "value":10,
-                        "negate":true
-                    }
-                ]
+                "nextPhraseID":"brv_wh_boss_10"
             }
         ]
-  }
-]
+    }
+] 
