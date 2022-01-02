@@ -7,11 +7,6 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"brv_wh",
-                        "value":900
-                    },
-                    {
-                        "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
                         "value":130
                     }
@@ -45,12 +40,6 @@
                         "requireType":"questProgress",
                         "requireID":"brv_wh",
                         "value":900
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_wh_delivery",
-                        "value":10,
-                        "negate":true
                     }
                 ]
             },
