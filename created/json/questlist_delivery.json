@@ -11,53 +11,43 @@
       },
       {
         "progress":20,
-        "logText":"Arcir the Fallhaven book-lover ordered 'Dusty Old book'.",
-        "rewardExperience":50
+        "logText":"Arcir the Fallhaven book-lover ordered 'Dusty Old book'."
       },
       {
         "progress":30,
-        "logText":"Edrin the Brimhaven metalsmith ordered 'Striped Hammer'.",
-        "rewardExperience":50
+        "logText":"Edrin the Brimhaven metalsmith ordered 'Striped Hammer'."
       },
       {
         "progress":40,
-        "logText":" Odirath the Stoutford armorer ordered 'Pretty Porcelain Figure'.",
-        "rewardExperience":50
+        "logText":" Odirath the Stoutford armorer ordered 'Pretty Porcelain Figure'."
       },
       {
         "progress":50,
-        "logText":"Venanra the Brimhaven laundress ordered 'Old, worn cape'.",
-        "rewardExperience":50
+        "logText":"Venanra the Brimhaven laundress ordered 'Old, worn cape'."
       },
       {
         "progress":60,
-        "logText":"Tjure the unluckiest Brimhaven merchant ordered 'Mysterious green something'.",
-        "rewardExperience":50
+        "logText":"Tjure the unluckiest Brimhaven merchant ordered 'Mysterious green something'."
       },
       {
         "progress":70,
-        "logText":"Servant the Guynmart servant ordered 'Chandelier'.",
-        "rewardExperience":50
+        "logText":"Servant the Guynmart servant ordered 'Chandelier'."
       },
       {
         "progress":80,
-        "logText":"Arghes the Remgard merchant ordered 'Yellow boot'.",
-        "rewardExperience":50
+        "logText":"Arghes the Remgard merchant ordered 'Yellow boot'."
       },
       {
         "progress":90,
-        "logText":"Wyre the mournful Vilegard woman ordered 'Lyre'.",
-        "rewardExperience":50
+        "logText":"Wyre the mournful Vilegard woman ordered 'Lyre'."
       },
       {
         "progress":100,
-        "logText":"Mikhail ordered 'Plush Pillow'.",
-        "rewardExperience":50
+        "logText":"Mikhail ordered 'Plush Pillow'."
       },
       {
         "progress":110,
-        "logText":"Pangitain the Brimhaven fortune teller ordered Crystal Globe.",
-        "rewardExperience":50
+        "logText":"Pangitain the Brimhaven fortune teller ordered 'Crystal Globe'."
       },
       {
         "progress":120,
@@ -68,6 +58,63 @@
         "logText":"I reported back to Facutloni. He is very glad.",
         "rewardExperience":1500,
         "finishesQuest":1
+      }
+    ]
+  },
+  {
+    "id":"brv_wh_delivery_nondisplay",
+    "name":"Delivery - nondisplay",
+    "showInLog":0,
+    "stages":[
+      {
+        "progress":10,
+        "logText":"I delivered 'Dusty Old book'",
+        "rewardExperience":50
+      },
+      {
+        "progress":20,
+        "logText":"I delivered 'Striped Hammer'",
+        "rewardExperience":50
+      },
+      {
+        "progress":30,
+        "logText":"I delivered 'Pretty Porcelain Figure'",
+        "rewardExperience":50
+      },
+      {
+        "progress":40,
+        "logText":"I delivered 'Old, worn cape'",
+        "rewardExperience":50
+      },
+      {
+        "progress":50,
+        "logText":"I delivered 'Mysterious green something'",
+        "rewardExperience":50
+      },
+      {
+        "progress":60,
+        "logText":"I delivered 'Chandelier'",
+        "rewardExperience":50
+      },
+      {
+        "progress":70,
+        "logText":"I delivered 'Yellow boot'",
+        "rewardExperience":50
+      },
+      {
+        "progress":80,
+        "logText":"I delivered 'Lyre'",
+        "rewardExperience":50
+      },
+      {
+        "progress":90,
+        "logText":"I delivered 'Plush Pillow'",
+        "rewardExperience":50
+      },
+      {
+        "progress":100,
+        "logText":"I delivered 'Crystal Globe'",
+        "rewardExperience":50
       }
     ]
   }
