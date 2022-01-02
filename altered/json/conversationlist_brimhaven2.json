@@ -7,15 +7,30 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"brv_wh",
-                        "value":900
-                    },
-                    {
-                        "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
                         "value":130
                     }
                 ]   
+            },
+            {
+                "nextPhraseID":"brv_wh_delivery_boss_10_10",
+                 "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_wh_delivery_boss_10",
+                 "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh",
+                        "value":900
+                    }
+                ]
             },
             {
                 "nextPhraseID":"brv_wh_boss_10_10",
@@ -35,32 +50,6 @@
                         "requireID":"brv_wh",
                         "value":10,
                         "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brv_wh_delivery_boss_10",
-                 "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_wh",
-                        "value":900
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_wh_delivery",
-                        "value":10,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brv_wh_delivery_boss_10_10",
-                 "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_wh_delivery",
-                        "value":10
                     }
                 ]
             }
