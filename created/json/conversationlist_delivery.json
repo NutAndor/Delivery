@@ -64,6 +64,11 @@
             { "rewardType":"giveItem", "rewardID":"brv_wh_item_08", "value":1 },
             { "rewardType":"giveItem", "rewardID":"brv_wh_item_09", "value":1 },
             {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery_reward_nondisplay",
+                "value":1
+            },
+            {
                 "rewardType":"giveItem",
                 "rewardID":"facutloni_docket",
                 "value":1
@@ -466,6 +471,13 @@
                 "text":"I travelled far and wide.",
                 "nextPhraseID":"brv_wh_delivery_boss_reward"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery_reward_nondisplay",
+                "value":2
+            }
         ]
     },
     {
@@ -486,6 +498,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brv_wh_delivery",
                 "value":130
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery_reward_nondisplay",
+                "value":3
             },
             {
                 "rewardType":"giveItem",
