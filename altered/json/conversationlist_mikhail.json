@@ -177,7 +177,7 @@
                 ]
             },
             {
-              "text":"Hello, did you order 'Plush Pillow'?",
+              "text":"Yes, I'm here to deliver the order 'Plush Pillow'. But what for?",
               "nextPhraseID":"brv_wh_delivery_mikhail",
               "requires":[
                    {

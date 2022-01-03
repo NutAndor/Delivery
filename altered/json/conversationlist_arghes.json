@@ -16,7 +16,7 @@
                 "nextPhraseID":"arghes_3c"
             },
             {
-              "text":"Hello, did you order 'Yellow boot'?",
+              "text":"And how interesting that you didn't ordered a pair of 'Yellow boot'. Did you really order this?",
               "nextPhraseID":"brv_wh_delivery_arghes",
               "requires":[
                    {

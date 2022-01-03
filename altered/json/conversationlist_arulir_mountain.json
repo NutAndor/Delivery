@@ -104,7 +104,7 @@
                 "nextPhraseID":"X"
             },
             {
-              "text":"Hello, did you order 'Mysterious green something'?",
+              "text":"I'm surprised to see you here as well. Did you order 'Mysterious green something'?",
               "nextPhraseID":"brv_wh_delivery_tjure",
               "requires":[
                    {
@@ -131,7 +131,7 @@
         "message":"*Sigh* You were my last hope. Leave me now.",
         "replies":[
             {
-              "text":"Hello, did you order 'Mysterious green something'?",
+              "text":"Not until I deliver you this. Are you the one who order 'Mysterious green something'?",
               "nextPhraseID":"brv_wh_delivery_tjure",
               "requires":[
                    {
@@ -149,7 +149,7 @@
         "switchToNPC":"tjure",
         "replies":[
             {
-              "text":"Hello, did you order 'Mysterious green something'?",
+              "text":"No problem. By the way, did you order 'Mysterious green something'?",
               "nextPhraseID":"brv_wh_delivery_tjure",
               "requires":[
                    {
@@ -176,7 +176,7 @@
         "message":"Oh, you look better than the last time we met. Thank you for your help.",
         "replies":[
             {
-              "text":"Hello, did you order 'Mysterious green something'?",
+              "text":"Indeed. By the way, did you order 'Mysterious green something'?",
               "nextPhraseID":"brv_wh_delivery_tjure",
               "requires":[
                    {

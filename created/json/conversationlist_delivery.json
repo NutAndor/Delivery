@@ -64,6 +64,11 @@
             { "rewardType":"giveItem", "rewardID":"brv_wh_item_08", "value":1 },
             { "rewardType":"giveItem", "rewardID":"brv_wh_item_09", "value":1 },
             {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery_reward_nondisplay",
+                "value":1
+            },
+            {
                 "rewardType":"giveItem",
                 "rewardID":"facutloni_docket",
                 "value":1
@@ -167,7 +172,7 @@
     },
     {
         "id":"brv_wh_delivery_venanra",
-        "message":"Yes I did, kid. Old but still beneficial. Here's my delivery fee.",
+        "message":"Yes I did, kid. Incredibly, it has become the latest fashion to buy new cape with holes. Here's my delivery fee.",
         "replies":[
             {
                 "text":"Thank you.",
@@ -248,14 +253,14 @@
     },
     {
         "id":"brv_wh_delivery_arghes",
-        "message":"Yes, kid. I use this to pair with a best seller unique boot - the Bar Brawler's boots. It is very helpful for you, kid.",
+        "message":"Yes kid, thank you.",
         "replies":[
             {
-                "text":"Sure, let's trade",
-                "nextPhraseID":"S"
+                "text":"You're welcome.",
+                "nextPhraseID":"X"
             },
             {
-                "text":"No, thanks.",
+                "text":"Bye.",
                 "nextPhraseID":"X"
             }
         ],
@@ -269,6 +274,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brv_wh_delivery_nondisplay",
                 "value":70
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":50
             }
         ]
     },
@@ -371,6 +381,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brv_wh_delivery_nondisplay",
                 "value":100
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":10
             }
         ]
     },
@@ -456,56 +471,6 @@
     },
     {
         "id":"brv_wh_delivery_boss_10_10_yes",
-        "message":"Good. Please give me back my Docket.",
-        "replies":[
-            {
-                "text":"Here you go sir.",
-                "nextPhraseID":"brv_wh_delivery_boss_10_10_docket_present",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"facutloni_docket",
-                        "value":1
-                    }
-                 ]
-            },
-            {
-                "text":"About that.",
-                "nextPhraseID":"brv_wh_delivery_boss_10_10_docket_absent",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"facutloni_docket",
-                        "value":1,
-                        "negate":true
-                    }
-                 ]
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"brv_wh_delivery",
-                "value":120
-            }
-        ]
-    },
-    {
-        "id":"brv_wh_delivery_boss_10_10_docket_absent",
-        "message":"You irresponsible kid! Get out, find it and bring it to me!",
-        "replies":[
-            {
-                "text":"[Run]",
-                "nextPhraseID":"X"
-            },
-            {
-                "text":"Yes boss.",
-                "nextPhraseID":"X"
-            }
-        ]
-    },
-    {
-        "id":"brv_wh_delivery_boss_10_10_docket_present",
         "message":"Good job! I am glad that you work responsibly.",
         "replies":[
             {
@@ -515,6 +480,13 @@
             {
                 "text":"I travelled far and wide.",
                 "nextPhraseID":"brv_wh_delivery_boss_reward"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery_reward_nondisplay",
+                "value":2
             }
         ]
     },
@@ -536,6 +508,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brv_wh_delivery",
                 "value":130
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery_reward_nondisplay",
+                "value":3
             },
             {
                 "rewardType":"giveItem",

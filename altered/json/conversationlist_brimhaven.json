@@ -58,7 +58,7 @@
                 ]
             },
             {
-              "text":"Hello, did you order 'Old, worn cape'?",
+              "text":"Did you order 'Old, worn cape'?",
               "nextPhraseID":"brv_wh_delivery_venanra",
               "requires":[
                    {
@@ -263,7 +263,7 @@
                 "nextPhraseID":"brv_fortune_30"
             },
             {
-              "text":"Hello, did you order 'Crystal Globe'?",
+              "text":"So you are the one who order 'Crystal Globe'?",
               "nextPhraseID":"brv_wh_delivery_brv_fortune",
               "requires":[
                    {
@@ -309,7 +309,7 @@
                 "nextPhraseID":"brv_fortune_300"
             },
             {
-              "text":"Hello, did you order 'Crystal Globe'?",
+              "text":"Are you the one who order 'Crystal Globe'?",
               "nextPhraseID":"brv_wh_delivery_brv_fortune",
               "requires":[
                    {

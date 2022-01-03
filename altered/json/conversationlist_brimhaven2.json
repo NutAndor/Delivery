@@ -23,16 +23,6 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_wh_delivery_boss_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_wh",
-                        "value":900
-                    }
-                ]
-            },
-            {
                 "nextPhraseID":"brv_wh_boss_10_10",
                 "requires":[
                     {
@@ -43,7 +33,121 @@
                 ]
             },
             {
+                "nextPhraseID":"brv_wh_delivery_boss_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh",
+                        "value":900
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_wh_boss_10_32",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_reward_nondisplay",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_wh_delivery_boss_10_10",
+                 "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_wh_delivery_boss_10_10_yes",
+                 "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery_reward_nondisplay",
+                        "value":2
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"brv_wh_boss_10"
+            }
+        ]
+    },
+    {
+        "id":"brv_wh_boss_30",
+        "message":"Come back to me when you found all the pairs and tell me how many there are.",
+        "replies":[
+            {
+                "text":"OK. I'll be back in a minute.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Eh, what do you want me to do exactly?",
+                "nextPhraseID":"brv_wh_boss_40"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh",
+                "value":10
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_reward_nondisplay",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"brv_wh_boss_10_30",
+        "message":"10 pairs - that is correct. So everything is in order.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_wh_boss_10_32"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh",
+                "value":900
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_reward_nondisplay",
+                "value":2
+            }
+        ]
+    },
+    {
+        "id":"brv_wh_boss_10_90",
+        "message":"Good work gives good wages! Here is 100 gold.",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Old scrooge.",
+                "nextPhraseID":"brv_wh_boss_10_92"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_reward_nondisplay",
+                "value":3
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":100
             }
         ]
     }
