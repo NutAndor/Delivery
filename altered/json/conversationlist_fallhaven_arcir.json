@@ -19,7 +19,7 @@
                 "nextPhraseID":"arcir_books_1"
             },
             {
-              "text":"Hello, did you order 'Dusty old book'?",
+              "text":"And I'm your delivery kid. Did you order 'Dusty old book'?",
               "nextPhraseID":"brv_wh_delivery_arcir",
               "requires":[
                    {
