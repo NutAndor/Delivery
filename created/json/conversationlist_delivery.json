@@ -167,7 +167,7 @@
     },
     {
         "id":"brv_wh_delivery_venanra",
-        "message":"Yes I did, kid. Old but still beneficial. Here's my delivery fee.",
+        "message":"Yes I did, kid. Incredibly, it has become the latest fashion to buy new cape with holes. Here's my delivery fee.",
         "replies":[
             {
                 "text":"Thank you.",
@@ -456,56 +456,6 @@
     },
     {
         "id":"brv_wh_delivery_boss_10_10_yes",
-        "message":"Good. Please give me back my Docket.",
-        "replies":[
-            {
-                "text":"Here you go sir.",
-                "nextPhraseID":"brv_wh_delivery_boss_10_10_docket_present",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"facutloni_docket",
-                        "value":1
-                    }
-                 ]
-            },
-            {
-                "text":"About that.",
-                "nextPhraseID":"brv_wh_delivery_boss_10_10_docket_absent",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"facutloni_docket",
-                        "value":1,
-                        "negate":true
-                    }
-                 ]
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"brv_wh_delivery",
-                "value":120
-            }
-        ]
-    },
-    {
-        "id":"brv_wh_delivery_boss_10_10_docket_absent",
-        "message":"You irresponsible kid! Get out, find it and bring it to me!",
-        "replies":[
-            {
-                "text":"[Run]",
-                "nextPhraseID":"X"
-            },
-            {
-                "text":"Yes boss.",
-                "nextPhraseID":"X"
-            }
-        ]
-    },
-    {
-        "id":"brv_wh_delivery_boss_10_10_docket_present",
         "message":"Good job! I am glad that you work responsibly.",
         "replies":[
             {
