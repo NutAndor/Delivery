@@ -125,11 +125,15 @@
     "stages": [
         {
         "progress":1,
-        "logText":"No received gold and exp reward yet."
+        "logText":"Not yet done."
         },
         {
         "progress":2,
-        "logText":"I received gold and exp reward. Old scrooge again."
+        "logText":"Done. But haven't received gold and exp reward yet."
+        },
+        {
+        "progress":3,
+        "logText":"Done. I received gold and exp reward. Old scrooge again."
         }
       ]
   }
