@@ -8,7 +8,7 @@
                 "nextPhraseID":"guynmart_servant_20"
             },
             {
-              "text":"Hello, did you order 'Chandelier'?",
+              "text":"I'm here to give you your order. You don't want it?",
               "nextPhraseID":"brv_wh_delivery_servant",
               "requires":[
                    {
