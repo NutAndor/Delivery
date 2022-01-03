@@ -4,13 +4,23 @@
         "replies":[
             {
                 "nextPhraseID":"brv_wh_boss_900_10",
-                "requires":[
+                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"brv_wh_delivery",
-                        "value":130
+                        "requireID":"brv_wh_delivery_reward_nondisplay",
+                        "value":3
                     }
-                ]   
+                ]
+            },
+            {
+                "nextPhraseID":"brv_wh_delivery_boss_10_10_yes",
+                 "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery_reward_nondisplay",
+                        "value":2
+                    }
+                ]
             },
             {
                 "nextPhraseID":"brv_wh_delivery_boss_10_10",
@@ -19,6 +29,26 @@
                         "requireType":"questProgress",
                         "requireID":"brv_wh_delivery",
                         "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_wh_delivery_boss_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_reward_nondisplay",
+                        "value":3
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_wh_boss_10_32",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_reward_nondisplay",
+                        "value":2
                     }
                 ]
             },
@@ -48,26 +78,6 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_wh_reward_nondisplay",
-                        "value":2
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brv_wh_delivery_boss_10_10",
-                 "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_wh_delivery",
-                        "value":10
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brv_wh_delivery_boss_10_10_yes",
-                 "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_wh_delivery_reward_nondisplay",
                         "value":2
                     }
                 ]
