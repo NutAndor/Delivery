@@ -253,14 +253,14 @@
     },
     {
         "id":"brv_wh_delivery_arghes",
-        "message":"Yes, kid. I use this to pair with a best seller unique boot - the Bar Brawler's boots. It is very helpful for you, kid.",
+        "message":"Yes kid, thank you.",
         "replies":[
             {
-                "text":"Sure, let's trade",
-                "nextPhraseID":"S"
+                "text":"You're welcome.",
+                "nextPhraseID":"X"
             },
             {
-                "text":"No, thanks.",
+                "text":"Bye.",
                 "nextPhraseID":"X"
             }
         ],
@@ -274,6 +274,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brv_wh_delivery_nondisplay",
                 "value":70
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":50
             }
         ]
     },
@@ -376,6 +381,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brv_wh_delivery_nondisplay",
                 "value":100
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":10
             }
         ]
     },
