@@ -56,7 +56,7 @@
       {
         "progress":130,
         "logText":"I reported back to Facutloni. He is very glad.",
-        "rewardExperience":1500,
+        "rewardExperience":10000,
         "finishesQuest":1
       }
     ]
@@ -69,7 +69,7 @@
       {
         "progress":10,
         "logText":"I delivered 'Dusty Old book'",
-        "rewardExperience":50
+        "rewardExperience":75
       },
       {
         "progress":20,
@@ -79,7 +79,7 @@
       {
         "progress":30,
         "logText":"I delivered 'Pretty Porcelain Figure'",
-        "rewardExperience":50
+        "rewardExperience":250
       },
       {
         "progress":40,
@@ -89,27 +89,27 @@
       {
         "progress":50,
         "logText":"I delivered 'Mysterious green something'",
-        "rewardExperience":50
+        "rewardExperience":500
       },
       {
         "progress":60,
         "logText":"I delivered 'Chandelier'",
-        "rewardExperience":50
+        "rewardExperience":250
       },
       {
         "progress":70,
         "logText":"I delivered 'Yellow boot'",
-        "rewardExperience":50
+        "rewardExperience":500
       },
       {
         "progress":80,
         "logText":"I delivered 'Lyre'",
-        "rewardExperience":50
+        "rewardExperience":150
       },
       {
         "progress":90,
         "logText":"I delivered 'Plush Pillow'",
-        "rewardExperience":50
+        "rewardExperience":100
       },
       {
         "progress":100,
