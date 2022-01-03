@@ -43,6 +43,16 @@
                 ]
             },
             {
+                "nextPhraseID":"brv_wh_delivery_boss_10_10_yes",
+                 "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery_reward_nondisplay",
+                        "value":2
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"brv_wh_boss_10"
             }
         ]
