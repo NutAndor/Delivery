@@ -117,5 +117,20 @@
         "rewardExperience":50
       }
     ]
+  },
+  {
+    "id":"brv_wh_delivery_reward_nondisplay",
+    "name":"Gold and Exp reward for Delivery quest completed - nondisplay",
+    "showInLog":0,
+    "stages": [
+        {
+        "progress":1,
+        "logText":"No received gold and exp reward yet."
+        },
+        {
+        "progress":2,
+        "logText":"I received gold and exp reward. Old scrooge again."
+        }
+      ]
   }
 ]
