@@ -33,6 +33,16 @@
                 ]
             },
             {
+                "nextPhraseID":"brv_wh_boss_10_32",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_reward_nondisplay",
+                        "value":2
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"brv_wh_delivery_boss_10_10",
                  "requires":[
                     {
