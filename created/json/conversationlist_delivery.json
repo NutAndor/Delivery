@@ -91,7 +91,7 @@
     },
     {
         "id":"brv_wh_delivery_arcir",
-        "message":"Yes, an old but useful book but you should wipe it first. Anyway, here's my delivery fee.",
+        "message":"Yes, an old but useful book, but you should have wiped it off first. Anyway, here's my delivery fee.",
         "replies":[
             {
                 "text":"Thank you.",
@@ -118,7 +118,7 @@
     },
     {
         "id":"brv_wh_delivery_edrin",
-        "message":"Yes, a stripy striped hammer. Anyway, here's my delivery fee.",
+        "message":"Yes, a stripy striped hammer. Don't look so annoying. Here's my delivery charge, and now get out!",
         "replies":[
             {
                 "text":"Thank you.",
@@ -145,7 +145,7 @@
     },
     {
         "id":"brv_wh_delivery_odirath",
-        "message":"Yes, indeed. A gift for my beautiful daughter...but why it took so long? Sigh, here's my delivery fee.",
+        "message":"Yes, indeed. A gift for my beautiful daughter... but why did it take so long? Sigh, here's my delivery fee.",
         "replies":[
             {
                 "text":"Thank you.",
@@ -172,7 +172,7 @@
     },
     {
         "id":"brv_wh_delivery_venanra",
-        "message":"Yes I did, kid. Incredibly, it has become the latest fashion to buy new cape with holes. Here's my delivery fee.",
+        "message":"Yes I did, kid. Incredibly, it has become the latest fashion to buy new capes with holes. Here's my delivery fee.",
         "replies":[
             {
                 "text":"Thank you.",
@@ -199,7 +199,7 @@
     },
     {
         "id":"brv_wh_delivery_tjure",
-        "message":"What?! My lucky clover...but why now? Anyway, I'll no longer ran out of luck this time. Here's my delivery fee.",
+        "message":"What?! My lucky clover...but why now? Anyway, I'll no longer run out of luck this time. Here's my delivery fee.",
         "replies":[
             {
                 "text":"Thank you.",
@@ -253,7 +253,7 @@
     },
     {
         "id":"brv_wh_delivery_arghes",
-        "message":"Yes kid, thank you.",
+        "message":"Yes kid, thank you. Here, take the gold for it.",
         "replies":[
             {
                 "text":"You're welcome.",
@@ -355,19 +355,44 @@
             {
                 "text":"I'm still looking for him.",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"Eh, you have to pay for it...",
+                "nextPhraseID":"brv_wh_delivery_mikhail4"
+            }
+        ]
+    },
+    {
+        "id":"brv_wh_delivery_mikhail4",
+        "message":"Ah, yes, I almost forgot. Here you are.",
+        "replies":[
+            {
+                "text":"Thanks. I'm on my way again, bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Hmm... Bye",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":10
             }
         ]
     },
     {
         "id":"brv_wh_delivery_brv_fortune",
-        "message":"Ah yes, I need new one. Say you want me to help you?",
+        "message":"Ah yes, I need a new one. My current crystal globe has become a bit cloudy - otherwise I would of course have seen that you brought me a new globe.\nHere is the gold for it.",
         "replies":[
             {
-                "text":"Maybe later, thanks.",
-                "nextPhraseID":"X"
+                "text":"Do you want to try the crystal ball on me to see if it works?",
+                "nextPhraseID":"brv_wh_delivery_brv_fortune_10"
             },
             {
-                "text":"I'm on a hurry. Thanks, anyway.",
+                "text":"Thanks for choosing Facutloni's delivery.",
                 "nextPhraseID":"X"
             }
         ],
@@ -385,9 +410,23 @@
             {
                 "rewardType":"giveItem",
                 "rewardID":"gold",
-                "value":10
+                "value":100
             }
         ]
+    },
+    {
+         "id":"brv_wh_delivery_brv_fortune_10",
+         "message":"Say you want me to help you?",
+         "replies":[
+             {
+                 "text":"What help can you offer?",
+                 "nextPhraseID":"brv_fortune_20"
+             },
+             {
+                 "text":"I am searching...",
+                 "nextPhraseID":"brv_fortune_30"
+             }
+         ]
     },
     {
         "id":"brv_wh_delivery_boss_10_10",
@@ -471,6 +510,52 @@
     },
     {
         "id":"brv_wh_delivery_boss_10_10_yes",
+        "message":"That's nice to hear. Then you can now give me the... eh...330 gold pieces that you should have received from the sale.",
+        "replies":[
+            {
+                "text":"Sure. Here you are.",
+                "nextPhraseID":"brv_wh_delivery_boss_10_10_yes_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":330
+                    }
+                ]
+            },
+            {
+                "text":"Uh, I had expenses along the way and I don't have all the gold anymore.",
+                "nextPhraseID":"brv_wh_delivery_boss_10_10_yes_1"
+            }
+        ]
+    },
+   {
+        "id":"brv_wh_delivery_boss_10_10_yes_1",
+        "message":"And then you step under my eyes? Go get my gold!",
+        "replies":[
+            {
+                "text":"[Run]",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Yes boss.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Oh, I just found the 330 gold pieces in my pocket. Please take it.",
+                "nextPhraseID":"brv_wh_delivery_boss_10_10_yes_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":330
+                    }
+                ]
+            },
+        ]
+    },
+    {
+        "id":"brv_wh_delivery_boss_10_10_yes_10",
         "message":"Good job! I am glad that you work responsibly.",
         "replies":[
             {
@@ -492,7 +577,7 @@
     },
     {
         "id":"brv_wh_delivery_boss_reward",
-        "message":"That is serious. Here is 100 gold.",
+        "message":"That is serious. And here you have your well-deserved reward: 100 gold.",
         "replies":[
             {
                 "text":"Thanks.",
