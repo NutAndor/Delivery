@@ -326,12 +326,12 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"brv_wh_delivery",
                 "value":100
-            }
+            },
             {
                 "rewardType":"questProgress",
                 "rewardID":"brv_wh_delivery_nondisplay",
                 "value":90
-            },
+            }
         ]
     },
     {
@@ -371,7 +371,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Hmm ... Bye",
+                "text":"Hmm... Bye",
                 "nextPhraseID":"X"
             }
         ],
@@ -427,6 +427,20 @@
                 "nextPhraseID":"brv_fortune_30"
             }
         ]
+    },
+    {
+         "id":"brv_wh_delivery_brv_fortune_10",
+         "message":"Say you want me to help you?",
+         "replies":[
+             {
+                 "text":"What help can you offer?",
+                 "nextPhraseID":"brv_fortune_20"
+             },
+             {
+                 "text":"I am searching...",
+                 "nextPhraseID":"brv_fortune_30"
+             }
+         ]
     },
     {
         "id":"brv_wh_delivery_boss_10_10",
@@ -510,13 +524,13 @@
     },
     {
         "id":"brv_wh_delivery_boss_10_10_yes",
-        "message":"That's nice to hear. Then you can now give me the ... eh ... 330 gold pieces that you should have received from the sale.",
+        "message":"That's nice to hear. Then you can now give me the... eh...330 gold pieces that you should have received from the sale.",
         "replies":[
             {
                 "text":"Sure. Here you are.",
                 "nextPhraseID":"brv_wh_delivery_boss_10_10_yes_10",
-				"requires":[
-					{
+                "requires":[
+                    {
                         "requireType":"inventoryRemove",
                         "requireID":"gold",
                         "value":330
@@ -544,8 +558,8 @@
             {
                 "text":"Oh, I just found the 330 gold pieces in my pocket. Please take it.",
                 "nextPhraseID":"brv_wh_delivery_boss_10_10_yes_10",
-				"requires":[
-					{
+                "requires":[
+                    {
                         "requireType":"inventoryRemove",
                         "requireID":"gold",
                         "value":330
