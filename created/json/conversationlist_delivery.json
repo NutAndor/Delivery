@@ -709,7 +709,7 @@
         "message":"*Sigh* You were my last hope. Leave me now.",
         "replies":[
             {
-                "text":"Not until I deliver you this. Are you the one who order 'Mysterious green something'?",
+                "text":"Not until I have delivered this to you. Are you the one who ordered a 'Mysterious green something'?",
                 "nextPhraseID":"brv_wh_delivery_tjure",
                 "requires":[
                     {
