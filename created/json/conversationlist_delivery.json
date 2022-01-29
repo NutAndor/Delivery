@@ -379,7 +379,7 @@
         "message":"Yes, I'm longing for it just like how I'm longing for my son. But now I can mourn as I play his favorite song until I die.",
         "replies":[
             {
-                "text":"My sincere condolence for the lose of your beloved son.",
+                "text":"My sincere condolence for the loss of your beloved son.",
                 "nextPhraseID":"X"
             }
         ],
@@ -405,7 +405,7 @@
                 "nextPhraseID":"brv_wh_delivery_mikhail2"
             },
             {
-                "text":"What?! Where's my gift too?",
+                "text":"What?! Where's my gift?",
                 "nextPhraseID":"brv_wh_delivery_mikhail3"
             }
         ],
@@ -437,7 +437,7 @@
         "message":"Anyway, it's been a very long time so please go look for your brother.",
         "replies":[
             {
-                "text":"Ok, bye.",
+                "text":"OK, bye.",
                 "nextPhraseID":"X"
             },
             {

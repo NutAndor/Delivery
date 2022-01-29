@@ -1,5 +1,5 @@
 [
-  {
+    {
         "id":"arcir_start",
         "message":"Hello. I'm Arcir.",
         "replies":[
@@ -19,10 +19,10 @@
                 "nextPhraseID":"arcir_books_1"
             },
             {
-              "text":"And I'm your delivery kid. Did you order 'Dusty old book'?",
-              "nextPhraseID":"brv_wh_delivery_arcir",
-              "requires":[
-                   {
+                "text":"And I'm your delivery kid. Did you order a 'Dusty old book'?",
+                "nextPhraseID":"brv_wh_delivery_arcir",
+                "requires":[
+                    {
                         "requireType":"inventoryRemove",
                         "requireID":"brv_wh_item_09",
                         "value":1
@@ -40,5 +40,5 @@
                 ]
             }
         ]
-   }
+    }
 ]

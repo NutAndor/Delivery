@@ -23,10 +23,10 @@
                 ]
             },
             {
-              "text":"Not yet, but your order here has finally arrived.",
-              "nextPhraseID":"brv_wh_delivery_wyre_negative",
-              "requires":[
-                   {
+                "text":"Not yet, but your order has finally arrived.",
+                "nextPhraseID":"brv_wh_delivery_wyre_negative",
+                "requires":[
+                    {
                         "requireType":"inventoryKeep",
                         "requireID":"brv_wh_item_02",
                         "value":1
@@ -58,10 +58,10 @@
                 "nextPhraseID":"wrye_story_15"
             },
             {
-              "text":"Yes, I came back to deliver your order 'Lyre'. You must be good at playing it?",
-              "nextPhraseID":"brv_wh_delivery_wyre",
-              "requires":[
-                   {
+                "text":"Yes, I came back to deliver your order of a 'Lyre'. You must be good at playing it?",
+                "nextPhraseID":"brv_wh_delivery_wyre",
+                "requires":[
+                    {
                         "requireType":"inventoryRemove",
                         "requireID":"brv_wh_item_02",
                         "value":1
@@ -89,10 +89,10 @@
                 "nextPhraseID":"wrye_mourn_2"
             },
             {
-              "text":"Excuse me, I'm here to deliver your order 'Lyre'.",
-              "nextPhraseID":"wrye_mourn_3",
-              "requires":[
-                   {
+                "text":"Excuse me, I'm here to deliver your order for a 'Lyre'.",
+                "nextPhraseID":"wrye_mourn_3",
+                "requires":[
+                    {
                         "requireType":"inventoryKeep",
                         "requireID":"brv_wh_item_02",
                         "value":1
@@ -131,10 +131,10 @@
                 "nextPhraseID":"wrye_mourn_3"
             },
             {
-              "text":"Maybe your order here will comfort you?",
-              "nextPhraseID":"wrye_mourn_3",
-              "requires":[
-                   {
+                "text":"Maybe your order here will comfort you?",
+                "nextPhraseID":"wrye_mourn_3",
+                "requires":[
+                    {
                         "requireType":"inventoryKeep",
                         "requireID":"brv_wh_item_02",
                         "value":1

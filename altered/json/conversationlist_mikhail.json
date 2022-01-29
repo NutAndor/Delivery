@@ -1,5 +1,5 @@
 [
-{
+    {
         "id":"mikhail_default",
         "message":"Anything else I can help you with?",
         "replies":[
@@ -177,10 +177,10 @@
                 ]
             },
             {
-              "text":"Yes, I'm here to deliver the order 'Plush Pillow'. But what for?",
-              "nextPhraseID":"brv_wh_delivery_mikhail",
-              "requires":[
-                   {
+                "text":"Yes, I'm here to deliver the order for a 'Plush Pillow'. But what for?",
+                "nextPhraseID":"brv_wh_delivery_mikhail",
+                "requires":[
+                    {
                         "requireType":"inventoryRemove",
                         "requireID":"brv_wh_item_01",
                         "value":1
