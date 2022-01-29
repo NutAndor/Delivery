@@ -1,7 +1,7 @@
 [
     {
         "id":"brv_wh_delivery_boss_10",
-        "message":"Ah! You have finally return, my new worker.",
+        "message":"Ah! You have finally returned, my new worker.",
         "replies":[
             {
                 "text":"How may I be of service?",
@@ -12,14 +12,14 @@
                 "nextPhraseID":"brv_wh_delivery_boss_20"
             },
             {
-                "text":"Ah! You are still insolence.",
+                "text":"Ah! You are still insolent.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"brv_wh_delivery_boss_20",
-        "message":"I need someone to deliver all of the items that are on a storage.",
+        "message":"I need someone to deliver all of the items that are in storage.",
         "replies":[
             {
                 "text":"N",
@@ -29,7 +29,7 @@
     },
     {
         "id":"brv_wh_delivery_boss_30",
-        "message":"Come back to me when you deliver all of the items in any order. Here is the list of customers.",
+        "message":"Come back to me when you have delivered all of the items. The order is not important. Here is the list of customers.",
         "replies":[
             {
                 "text":"It will be done.",
@@ -41,28 +41,116 @@
             }
         ],
         "rewards":[
-            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":10 },
-            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":20 },
-            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":30 },
-            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":40 },
-            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":50 },
-            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":60 },
-            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":70 },
-            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":80 },
-            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":90 },
-            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":100 },
-            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":110 },
-            { "rewardType":"questProgress", "rewardID":"brv_wh_delivery", "value":120 },
-            { "rewardType":"giveItem", "rewardID":"brv_wh_item_00", "value":1 },
-            { "rewardType":"giveItem", "rewardID":"brv_wh_item_01", "value":1 },
-            { "rewardType":"giveItem", "rewardID":"brv_wh_item_02", "value":1 },
-            { "rewardType":"giveItem", "rewardID":"brv_wh_item_03", "value":1 },
-            { "rewardType":"giveItem", "rewardID":"brv_wh_item_04", "value":1 },
-            { "rewardType":"giveItem", "rewardID":"brv_wh_item_05", "value":1 },
-            { "rewardType":"giveItem", "rewardID":"brv_wh_item_06", "value":1 },
-            { "rewardType":"giveItem", "rewardID":"brv_wh_item_07", "value":1 },
-            { "rewardType":"giveItem", "rewardID":"brv_wh_item_08", "value":1 },
-            { "rewardType":"giveItem", "rewardID":"brv_wh_item_09", "value":1 },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":10
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":20
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":30
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":40
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":50
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":60
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":70
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":80
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":90
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":100
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":110
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh_delivery",
+                "value":120
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brv_wh_item_00",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brv_wh_item_01",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brv_wh_item_02",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brv_wh_item_03",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brv_wh_item_04",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brv_wh_item_05",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brv_wh_item_06",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brv_wh_item_07",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brv_wh_item_08",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brv_wh_item_09",
+                "value":1
+            },
             {
                 "rewardType":"questProgress",
                 "rewardID":"brv_wh_delivery_reward_nondisplay",
@@ -118,7 +206,7 @@
     },
     {
         "id":"brv_wh_delivery_edrin",
-        "message":"Yes, a stripy striped hammer. Don't look so annoying. Here's my delivery charge, and now get out!",
+        "message":"Ah, yes, a striped hammer. Don't look so impatient. Here's my delivery charge, and now you can leave!",
         "replies":[
             {
                 "text":"Thank you.",
@@ -199,7 +287,7 @@
     },
     {
         "id":"brv_wh_delivery_tjure",
-        "message":"What?! My lucky clover...but why now? Anyway, I'll no longer run out of luck this time. Here's my delivery fee.",
+        "message":"What?! My lucky clover...but why now? Anyway, I'll no longer run out of luck. Here's my delivery fee.",
         "replies":[
             {
                 "text":"Thank you.",
@@ -253,7 +341,7 @@
     },
     {
         "id":"brv_wh_delivery_arghes",
-        "message":"Yes kid, thank you. Here, take the gold for it.",
+        "message":"Yes kid, thank you. Here, take this gold for them.",
         "replies":[
             {
                 "text":"You're welcome.",
@@ -385,10 +473,10 @@
     },
     {
         "id":"brv_wh_delivery_brv_fortune",
-        "message":"Ah yes, I need a new one. My current crystal globe has become a bit cloudy - otherwise I would of course have seen that you brought me a new globe.\nHere is the gold for it.",
+        "message":"Ah yes, I need a new one. My current crystal globe has become a bit cloudy - otherwise I would of course have seen that you would bring me a new globe.\nHere is the gold for it.",
         "replies":[
             {
-                "text":"Do you want to try the crystal ball on me to see if it works?",
+                "text":"Do you want to try the crystal ball with me to see if it works?",
                 "nextPhraseID":"brv_wh_delivery_brv_fortune_10"
             },
             {
@@ -414,9 +502,9 @@
             }
         ]
     },
-   {
+    {
         "id":"brv_wh_delivery_brv_fortune_10",
-        "message":"Say you want me to help you?",
+        "message":"You say you want me to help you?",
         "replies":[
             {
                 "text":"What help can you offer?",
@@ -427,20 +515,6 @@
                 "nextPhraseID":"brv_fortune_30"
             }
         ]
-    },
-    {
-         "id":"brv_wh_delivery_brv_fortune_10",
-         "message":"Say you want me to help you?",
-         "replies":[
-             {
-                 "text":"What help can you offer?",
-                 "nextPhraseID":"brv_fortune_20"
-             },
-             {
-                 "text":"I am searching...",
-                 "nextPhraseID":"brv_fortune_30"
-             }
-         ]
     },
     {
         "id":"brv_wh_delivery_boss_10_10",
@@ -524,7 +598,7 @@
     },
     {
         "id":"brv_wh_delivery_boss_10_10_yes",
-        "message":"That's nice to hear. Then you can now give me the... eh...330 gold pieces that you should have received from the sale.",
+        "message":"That's nice to hear. Then you can now give me the... eh...330 gold pieces that you should have received from the sales.",
         "replies":[
             {
                 "text":"Sure. Here you are.",
@@ -545,7 +619,7 @@
     },
     {
         "id":"brv_wh_delivery_boss_10_10_yes_1",
-        "message":"And then you step under my eyes? Go get my gold!",
+        "message":"And then you walk into my sight? Go get my gold!",
         "replies":[
             {
                 "text":"[Run]",
@@ -627,6 +701,23 @@
             {
                 "text":"Thank you.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"tjure_wh_delivery_90",
+        "message":"*Sigh* You were my last hope. Leave me now.",
+        "replies":[
+            {
+                "text":"Not until I deliver you this. Are you the one who order 'Mysterious green something'?",
+                "nextPhraseID":"brv_wh_delivery_tjure",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_wh_item_05",
+                        "value":1
+                    }
+                ]
             }
         ]
     }

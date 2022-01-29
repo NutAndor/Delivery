@@ -1,10 +1,10 @@
 [
-   {
+    {
         "id":"arghes_2",
         "message":"How interesting. The child from Fallhaven, here in Remgard?",
         "replies":[
             {
-                "text":"I'm not from Fallhaven, I am from Crossglen, west of Fallhaven.",
+                "text":"I'm not from Fallhaven, I'm from Crossglen, west of Fallhaven.",
                 "nextPhraseID":"arghes_3a"
             },
             {
@@ -16,10 +16,10 @@
                 "nextPhraseID":"arghes_3c"
             },
             {
-              "text":"And how interesting that you didn't ordered a pair of 'Yellow boot'. Did you really order this?",
-              "nextPhraseID":"brv_wh_delivery_arghes",
-              "requires":[
-                   {
+                "text":"And how interesting that you ordered a pair of 'Yellow boots'. Did you really order this?",
+                "nextPhraseID":"brv_wh_delivery_arghes",
+                "requires":[
+                    {
                         "requireType":"inventoryRemove",
                         "requireID":"brv_wh_item_03",
                         "value":1

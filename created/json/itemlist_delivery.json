@@ -1,10 +1,10 @@
 [
-  {
+    {
         "id":"facutloni_docket",
         "iconID":"items_books:4",
         "name":"Facutloni's Docket",
         "displaytype":"quest",
         "category":"other",
-        "description":"A document listing the contents of a delivery\n\n Arcir the book-lover from Fallhaven ordered 'Dusty Old Book'.\n\n Edrin the metalsmith from Brimhaven ordered 'Striped Hammer'.\n\n Odirath the armorer from Stoutford ordered 'Pretty Porcelain Figure'.\n\n Venanra the laundress from Brimhaven ordered 'Old, worn cape'.\n\n Tjure the unlucky merchant ordered 'Mysterious green something'.\n\n Servant the servant from Guynmart Castle ordered 'Chandelier'.\n\n Arghes from Remgard tavern ordered 'Yellow Boot'.\n\n Wyre the mournful woman from Vilegard ordered 'Lyre'.\n\n Mikhail from Crossglen ordered 'Plush Pillow'.\n\n Pangitain the fortune teller from Brimhaven ordered 'Crystal Globe'.\n"
+        "description":"A document listing the contents of a delivery   Arcir the book-lover from Fallhaven ordered a 'Dusty Old Book'.   Edrin the metalsmith from Brimhaven ordered a 'Striped Hammer'.   Odirath the armorer from Stoutford ordered a 'Pretty Porcelain Figure'.   Venanra the laundress from Brimhaven ordered an 'Old, worn cape'.   Tjure the unlucky merchant ordered a 'Mysterious green something'.   Servant the servant from Guynmart Castle ordered a 'Chandelier'.   Arghes from Remgard tavern ordered 'Yellow Boots'.   Wyre the mournful woman from Vilegard ordered a 'Lyre'.   Mikhail from Crossglen ordered a 'Plush Pillow'.   Pangitain the fortune teller from Brimhaven ordered a 'Crystal Globe'. "
     }
 ]

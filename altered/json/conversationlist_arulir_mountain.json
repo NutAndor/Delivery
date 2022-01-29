@@ -1,5 +1,5 @@
 [
-   {
+    {
         "id":"tjure",
         "replies":[
             {
@@ -104,10 +104,10 @@
                 "nextPhraseID":"X"
             },
             {
-              "text":"I'm surprised to see you here as well. Did you order 'Mysterious green something'?",
-              "nextPhraseID":"brv_wh_delivery_tjure",
-              "requires":[
-                   {
+                "text":"I'm surprised to see you here as well. Did you order 'Mysterious green something'?",
+                "nextPhraseID":"brv_wh_delivery_tjure",
+                "requires":[
+                    {
                         "requireType":"inventoryRemove",
                         "requireID":"brv_wh_item_05",
                         "value":1
@@ -127,32 +127,15 @@
         ]
     },
     {
-        "id":"tjure_wh_delivery_90",
-        "message":"*Sigh* You were my last hope. Leave me now.",
-        "replies":[
-            {
-              "text":"Not until I deliver you this. Are you the one who order 'Mysterious green something'?",
-              "nextPhraseID":"brv_wh_delivery_tjure",
-              "requires":[
-                   {
-                        "requireType":"inventoryRemove",
-                        "requireID":"brv_wh_item_05",
-                        "value":1
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "id":"tjure_100",
         "message":"Thank you for your help.",
         "switchToNPC":"tjure",
         "replies":[
             {
-              "text":"No problem. By the way, did you order 'Mysterious green something'?",
-              "nextPhraseID":"brv_wh_delivery_tjure",
-              "requires":[
-                   {
+                "text":"No problem. By the way, did you order a 'Mysterious green something'?",
+                "nextPhraseID":"brv_wh_delivery_tjure",
+                "requires":[
+                    {
                         "requireType":"inventoryRemove",
                         "requireID":"brv_wh_item_05",
                         "value":1
@@ -176,10 +159,10 @@
         "message":"Oh, you look better than the last time we met. Thank you for your help.",
         "replies":[
             {
-              "text":"Indeed. By the way, did you order 'Mysterious green something'?",
-              "nextPhraseID":"brv_wh_delivery_tjure",
-              "requires":[
-                   {
+                "text":"Indeed. By the way, did you order a 'Mysterious green something'?",
+                "nextPhraseID":"brv_wh_delivery_tjure",
+                "requires":[
+                    {
                         "requireType":"inventoryRemove",
                         "requireID":"brv_wh_item_05",
                         "value":1
