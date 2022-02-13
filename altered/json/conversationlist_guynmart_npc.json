@@ -8,7 +8,7 @@
                 "nextPhraseID":"guynmart_servant_20"
             },
             {
-              "text":"I'm here to give you your order. You don't want it?",
+              "text":"I'm here to give you your ordered item. You don't want it?",
               "nextPhraseID":"brv_wh_delivery_servant",
               "requires":[
                    {
