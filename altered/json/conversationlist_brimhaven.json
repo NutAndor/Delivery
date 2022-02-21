@@ -330,5 +330,42 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"melona_0a",
+        "message":"What can I help you with?",
+        "replies":[
+            {
+                "text":"I'm hungry. Do you have any food to sell?",
+                "nextPhraseID":"melona_1"
+            },
+            {
+                "text":"I need somewhere to sleep. Do you have a bed available?",
+                "nextPhraseID":"melona_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":230,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I'm looking for my brother, Andor. He looks a bit like me.",
+                "nextPhraseID":"melona_3"
+            },
+            {
+                "text":"I have a delivery for a merchant named Tjure. Do you know where I might find him?",
+                "nextPhraseID":"melona_tjure",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":60
+                    }
+                ]
+            }
+        ]
     }
 ]

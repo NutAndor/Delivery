@@ -720,5 +720,29 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"melona_tjure",
+        "message":"Of course. Tjure used to live here in Brimhaven, and he would sometimes stop by to sell his wares to guests here at my inn. It's been a while since I've seen him, though.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"melona_tjure_2"
+            }
+        ]
+    },
+    {
+        "id":"melona_tjure_2",
+        "message":"I've heard rumors that he's fallen on tough times. Something about trying to escape from a curse by hiding in the Blackwater mountains. Poor fellow!",
+        "replies":[
+            {
+                "text":"Thanks. I'll go search for him.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Thanks. There's something else I would like to ask.",
+                "nextPhraseID":"melona_0a"
+            }
+        ]
     }
 ]
